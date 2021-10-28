@@ -1,0 +1,25 @@
+{
+    "name": "azphp/demo-20211026",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AzPhp\\Demo20211026\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeremy Lindblom",
+            "email": "jeremeamia@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "^1.1"
+    },
+    "scripts": {
+        "shell": [
+            "composer dump-autoload --classmap-authoritative",
+            "docker run -it --rm -v ${PWD}:/code -w /code --name p81 phpdaily/php:8.1 /bin/sh"
+        ]
+    }
+}
