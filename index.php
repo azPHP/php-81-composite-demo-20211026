@@ -2,11 +2,7 @@
 
 declare(strict_types=1);
 
-// This is the driver/client to demonstrate running the code.
-// How to run:
-// 1. Run `composer run shell` to download the php 8.1 image and boot up a docker container with a shell.
-// 2. Run `php index.php` within the container's shell to execute this file.
-// 3. Run `exit` to exit and shutdown the container.
+// This file is the driver/client to demonstrate running the code.
 
 require __DIR__ . '/vendor/autoload.php';
 
