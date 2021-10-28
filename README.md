@@ -1,6 +1,6 @@
 # PHP 8.1 Demo Code
 
-This code demonstrates various PHP 8.0 and 8.1 features in a realistic, functional (but incomplete) codebase.
+This code demonstrates various PHP 8.0 and 8.1 features in a realistic, functional (but incomplete) codebase. The code is part of some DNS validation logic.
 
 This code came from a code along session in the October 2021 [Arizona PHP User Group](https://www.meetup.com/azPHPUG) meetup, and was inspired by some refactoring work I was doing at my day job.
 
